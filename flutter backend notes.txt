@@ -1,0 +1,4 @@
+* First for initializing the server we type "npm init" in terminal and after giving all details we press yes. After doing that package.json file will be created for the server folder
+
+(dev_dependecies are used when we want to do integration testing or widget testing)
+* dependencies to be installed 'http, express, mongoose (It works in asynchrounous environment. It is a MongoDB object modelling tool, mongoose manages both promises(Future in flutter) and callbacks) 

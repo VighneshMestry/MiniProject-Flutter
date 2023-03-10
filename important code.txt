@@ -1,0 +1,56 @@
+
+// PageView along with functional indicator bar
+Column(
+      children: [
+        Container(
+          height: 252,
+          child: PageView.builder(
+            controller: PageController(viewportFraction: 1.0),
+            itemCount: imgList.length,
+            onPageChanged: (index) {
+              setState(() {
+                _current = index;
+                log(_current.toString());
+              });
+            },
+            itemBuilder: (_, i) {
+              return Column(
+                children: [
+                  Container(
+                    height: 250,
+                    width: MediaQuery.of(context).size.width,
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(15),
+                      image: DecorationImage(
+                          image: AssetImage(imgList[i]), fit: BoxFit.fitWidth),
+                    ),
+                  ),
+                ],
+              );
+            },
+          ),
+        ),
+        Row(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            for (var i = 0; i < imgList.length; i++)
+              if (i == _current)
+                Container(
+                  margin: const EdgeInsets.only(right: 2),
+                  width: 50,
+                  height: 2,
+                  decoration: BoxDecoration(color: Colors.grey[100]),
+                )
+              else
+                Container(
+                  margin: const EdgeInsets.only(right: 2),
+                  width: 50,
+                  height: 2,
+                  decoration: BoxDecoration(
+                    color: Colors.grey[600],
+                  ),
+                )
+          ],
+        ),
+      ],
+    );

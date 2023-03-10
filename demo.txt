@@ -1,0 +1,18 @@
+Dear Tejas sir,
+I am writing to inquire about the format of the upcoming Cloud Computing Workshop. Specifically, whether the workshop will be conducted online or offline.
+
+The workshop will take place on the following dates, and we would like to propose the following topics for your presentations:
+
+Date: 9th March Thursday / 16th March Thursday / 23rd March Thursday / 10th March Friday / 17th March Friday / 24th March Friday / 7th March (Online) / 22nd March (Online) / 30th March (Online)
+
+Time: 9:00 am - 3:00pm [Any 2 hours] 
+
+Topics: Disaster Recovery, Analytics as a Service, Monitoring as a Service, or any other open source cloud computing platform, (any other important topics can be added).
+
+The Date and time would be decided according to your availability,  So please let us know the date, time and mode of the Workshop.
+
+Thank You!
+
+Hands on - Azure cloud / Google cloud
+Platform ASaS / backup ASaS
+Seminar offline(topics) - disaster recovery, analytics as a service, monitoring as a service, or any other open source cloud computing platform.
